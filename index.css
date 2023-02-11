@@ -1,0 +1,176 @@
+
+body{
+     background-color: rgb(229, 229, 23);
+}
+.centeredcontent{
+      text-align: center;
+    
+}
+ol{
+    display: inline-block;
+    width:500px;
+}
+ol li{
+    list-style-type: decimal;
+
+}
+.box{
+    width: 100px;
+    height: 100px;
+    display: inline-block;
+    margin:23px 19px;
+    animation-iteration-count: infinite;
+    animation-duration: 2s;
+    background-color: rgb(47, 160, 47);
+}
+.box1{
+    background-color:rgb(28, 90, 124);
+        animation-name: boxanimation1;
+   
+   
+}
+@keyframes boxanimation1 {
+    0%{
+        transform: skewX(20deg);
+    }
+    50%{
+        transform: skewX(-20deg);
+    }
+    100%{
+        transform: skewX(20deg);
+    }
+}
+.box2{
+    background-color:rgb(47, 28, 93);
+       animation-name: boxanimation2;
+    
+}
+@keyframes boxanimation2 {
+    0%{
+        transform: skewY(-20deg);
+    }
+    50%{
+        transform: skewY(20deg);
+    }
+    100%{
+        transform: skewY(-20deg);
+    }
+}
+.box3{
+    background-color:rgb(20, 108, 89);
+
+    animation-name: boxanimation3;
+   
+
+}
+@keyframes boxanimation3 {
+    0%{
+        transform: rotate(60deg);
+    }
+    50%{
+        transform: rotate(180deg);
+    }
+    100%{
+        transform: rotate(360deg);
+    }
+}
+.box4{
+    background-color:rgb(53, 107, 16);
+    
+}
+.box4_1{
+    animation: boxanimation4_1 3s ease-in 0s infinite alternate-reverse forwards;
+}
+@keyframes boxanimation4_1 {
+    0%{
+        transform: scaleY(1);
+    }
+    50%{
+        transform: scaleY(0.5);
+    }
+    100%{
+        transform: scaleY(1);
+    }
+}
+.box4_2{
+    animation: boxanimation4_2 3s ease-in 0s infinite alternate-reverse forwards;
+}
+@keyframes boxanimation4_2 {
+    0%{
+        transform: scaleX(1);
+    }
+    50%{
+        transform: scaleX(0.5);
+    }
+    100%{
+        transform: scaleX(1);
+    }
+}
+.box4_3{
+    animation: boxanimation4_3 2s linear 0s infinite  alternate-reverse;
+}
+@keyframes boxanimation4_3 {
+    
+    100%{
+        transform: rotate(360deg);
+    }
+}
+/*End of index.html page*/
+.boxinpage2{
+    width: 100px;
+    height: 100px;
+ 
+    background-color: rgb(32, 135, 68);
+    margin: 5px 2px;
+    
+    
+}
+.listclass{
+    width:150px;
+   
+}
+.box21{
+   transition: width 3s ;
+}
+.box21:hover{
+    width:800px;
+
+}
+.box22{
+    transition: width 3s linear;
+ }
+ .box22:hover{
+     width:300px;
+     height:300px;
+ }
+ .box23{
+    transition: width 3s ease;
+ }
+ .box23:hover{
+    width:300px;
+ }
+ .box24{
+    transition: width 3s ease-in;
+ }
+ .box24:hover{
+    width:300px;
+ }
+ .box25{
+    transition: width 3s ease-out;
+ }
+ .box25:hover{
+    width:300px;
+ }
+ .box26{
+    transition: width 3s ease-in-out;
+ }
+ .box26:hover{
+    width:300px;
+ }
+ .box27{
+    transition: width 3s ease-out;
+ }
+ .box27:hover{
+    width:300px;
+ }
+ /*End of indexpage2.html page*/
